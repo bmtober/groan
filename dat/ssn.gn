@@ -1,0 +1,34 @@
+person --> fname "\t" lname "\t" ssn "\n";
+ssn --> n3 "-" n2 "-" n4;
+
+n3 --> n n n;
+n2 --> n n;
+n4 --> n n n n;
+
+n --> "0";
+n --> "1";
+n --> "2";
+n --> "3";
+n --> "4";
+n --> "5";
+n --> "6";
+n --> "7";
+n --> "8";
+n --> "9";
+
+fname --> "Alice";
+fname --> "Bob";
+fname --> "Cindy";
+fname --> "Dave";
+fname --> "Eve";
+fname --> "Fred";
+fname --> "Gina";
+fname --> "Harry";
+fname --> "Ingrid";
+fname --> "James";
+fname --> "Kathy";
+
+lname --> "Smith";
+lname --> "Jones";
+lname --> "Murphy";
+lname --> "Washington";
